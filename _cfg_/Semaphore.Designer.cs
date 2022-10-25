@@ -28,44 +28,44 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-			this.SuspendLayout();
-			// 
-			// numericUpDown1
-			// 
-			this.numericUpDown1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.numericUpDown1.Location = new System.Drawing.Point(0, 0);
-			this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown1.Location = new System.Drawing.Point(0, 0);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
             16,
             0,
             0,
             0});
-			this.numericUpDown1.Minimum = new decimal(new int[] {
+            this.numericUpDown1.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-			this.numericUpDown1.Name = "numericUpDown1";
-			this.numericUpDown1.Size = new System.Drawing.Size(46, 21);
-			this.numericUpDown1.TabIndex = 0;
-			this.numericUpDown1.Value = new decimal(new int[] {
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(46, 21);
+            this.numericUpDown1.TabIndex = 0;
+            this.numericUpDown1.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
-			this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
-			// 
-			// _cfg__Semaphore
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.Controls.Add(this.numericUpDown1);
-			this.Name = "_cfg__Semaphore";
-			this.Size = new System.Drawing.Size(46, 23);
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-			this.ResumeLayout(false);
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // _cfg__Semaphore
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Controls.Add(this.numericUpDown1);
+            this.Name = "_cfg__Semaphore";
+            this.Size = new System.Drawing.Size(46, 23);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.ResumeLayout(false);
 
 		}
 
