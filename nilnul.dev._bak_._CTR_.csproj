@@ -76,10 +76,10 @@
       <HintPath>packages\AE.Net.Mail.1.7.7816.38666\lib\net48\AE.Net.Mail.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.CodeCommit, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\AWSSDK.CodeCommit.3.7.100.30\lib\net45\AWSSDK.CodeCommit.dll</HintPath>
+      <HintPath>..\..\(packages)\AWSSDK.CodeCommit.3.7.100.33\lib\net45\AWSSDK.CodeCommit.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\AWSSDK.Core.3.7.101.2\lib\net45\AWSSDK.Core.dll</HintPath>
+      <HintPath>..\..\(packages)\AWSSDK.Core.3.7.102.1\lib\net45\AWSSDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
       <HintPath>packages\DotNetZip.1.16.0\lib\net40\DotNetZip.dll</HintPath>
@@ -245,7 +245,7 @@
       <HintPath>..\..\(packages)\nilnul.dev._src_.directory._cognomen_._LIB_.1.1.221023.51351\lib\net481\nilnul.dev._src_.directory._cognomen_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.fs._git_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul.fs._git_._LIB_.2.1.221202.80800\lib\net481\nilnul.fs._git_._LIB_.dll</HintPath>
+      <HintPath>..\..\(packages)\nilnul.fs._git_._LIB_.2.1.221211.35930\lib\net481\nilnul.fs._git_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.fs._git_._WIN_CTR_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul.fs._git_._WIN_CTR_.1.1.220830.121326\lib\net481\nilnul.fs._git_._WIN_CTR_.dll</HintPath>
@@ -320,7 +320,7 @@
       <HintPath>..\..\(packages)\nilnul._edu_._LIB_.1.0.8313.68\lib\net48\nilnul._edu_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\(packages)\nilnul._fs_._LIB_.2.1.221207.132007\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
+      <HintPath>..\..\(packages)\nilnul._fs_._LIB_.2.1.221209.141242\lib\net481\nilnul._fs_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._fs_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>..\..\(packages)\nilnul._fs_._LINQ_.1.1.221202.112819\lib\net481\nilnul._fs_._LINQ_.dll</HintPath>
@@ -999,7 +999,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\..\%28packages%29\AWSSDK.CodeCommit.3.7.100.30\analyzers\dotnet\cs\AWSSDK.CodeCommit.CodeAnalysis.dll" />
+    <Analyzer Include="..\..\%28packages%29\AWSSDK.CodeCommit.3.7.100.33\analyzers\dotnet\cs\AWSSDK.CodeCommit.CodeAnalysis.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuildMacros">
