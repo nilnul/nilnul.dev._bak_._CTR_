@@ -29,68 +29,69 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_.srcs
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-			this.ctr__bak__Srcs1 = new nilnul.dev._bak_._CTR_.ctr_.bak_.ctr__bak__Srcs();
-			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-			this.splitContainer1.Panel1.SuspendLayout();
-			this.splitContainer1.Panel2.SuspendLayout();
-			this.splitContainer1.SuspendLayout();
-			this.SuspendLayout();
-			// 
-			// splitContainer1
-			// 
-			this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-			this.splitContainer1.Name = "splitContainer1";
-			this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
-			// 
-			// splitContainer1.Panel1
-			// 
-			this.splitContainer1.Panel1.Controls.Add(this.ctr__bak__Srcs1);
-			// 
-			// splitContainer1.Panel2
-			// 
-			this.splitContainer1.Panel2.Controls.Add(this.richTextBox1);
-			this.splitContainer1.Size = new System.Drawing.Size(406, 328);
-			this.splitContainer1.SplitterDistance = 212;
-			this.splitContainer1.TabIndex = 0;
-			// 
-			// richTextBox1
-			// 
-			this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.richTextBox1.Location = new System.Drawing.Point(0, 0);
-			this.richTextBox1.Name = "richTextBox1";
-			this.richTextBox1.ReadOnly = true;
-			this.richTextBox1.Size = new System.Drawing.Size(406, 112);
-			this.richTextBox1.TabIndex = 0;
-			this.richTextBox1.Text = "";
-			// 
-			// ctr__bak__Srcs1
-			// 
-			this.ctr__bak__Srcs1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.ctr__bak__Srcs1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.ctr__bak__Srcs1.Location = new System.Drawing.Point(0, 0);
-			this.ctr__bak__Srcs1.Name = "ctr__bak__Srcs1";
-			this.ctr__bak__Srcs1.Size = new System.Drawing.Size(406, 212);
-			this.ctr__bak__Srcs1.TabIndex = 0;
-			this.ctr__bak__Srcs1.txt = "";
-			this.ctr__bak__Srcs1.started += new System.Action(this.retVoid__startOfPar_ShieldsSel11_started);
-			this.ctr__bak__Srcs1.finished += new System.Action(this.retVoid__startOfPar_ShieldsSel11_finished);
-			this.ctr__bak__Srcs1.notify += new System.Action<string>(this.ctr__bak__Srcs1_notify);
-			// 
-			// Statused
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Controls.Add(this.splitContainer1);
-			this.Name = "Statused";
-			this.Size = new System.Drawing.Size(406, 328);
-			this.splitContainer1.Panel1.ResumeLayout(false);
-			this.splitContainer1.Panel2.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-			this.splitContainer1.ResumeLayout(false);
-			this.ResumeLayout(false);
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.ctr__bak__Srcs1 = new nilnul.dev._bak_._CTR_.ctr_.bak_.ctr__bak__Srcs();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.ctr__bak__Srcs1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.richTextBox1);
+            this.splitContainer1.Size = new System.Drawing.Size(611, 378);
+            this.splitContainer1.SplitterDistance = 159;
+            this.splitContainer1.TabIndex = 0;
+            // 
+            // ctr__bak__Srcs1
+            // 
+            this.ctr__bak__Srcs1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ctr__bak__Srcs1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ctr__bak__Srcs1.Location = new System.Drawing.Point(0, 0);
+            this.ctr__bak__Srcs1.Name = "ctr__bak__Srcs1";
+            this.ctr__bak__Srcs1.Size = new System.Drawing.Size(611, 159);
+            this.ctr__bak__Srcs1.TabIndex = 0;
+            this.ctr__bak__Srcs1.txt = "";
+            this.ctr__bak__Srcs1.started += new System.Action(this.retVoid__startOfPar_ShieldsSel11_started);
+            this.ctr__bak__Srcs1.finished += new System.Action(this.retVoid__startOfPar_ShieldsSel11_finished);
+            this.ctr__bak__Srcs1.notify += new System.Action<string>(this.ctr__bak__Srcs1_notify);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(611, 215);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            // 
+            // bak__srcs_Statused
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.splitContainer1);
+            this.Name = "bak__srcs_Statused";
+            this.Size = new System.Drawing.Size(611, 378);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            this.ResumeLayout(false);
 
 		}
 
