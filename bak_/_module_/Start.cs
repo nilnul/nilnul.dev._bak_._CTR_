@@ -48,9 +48,10 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_._module_
 			try
 			{
 				await Task.Factory.StartNew(
-						() => new nilnul.dev.src.sln.div_.unjoint_.nonneglect_.giT_.work_.top_._incomplete_.container_.undone.Bak_srcsInAddresses(
+						() =>  nilnul.dev.srcs.each.sln.div_.delvable_.partic_.giT_.work_.top_._incomplete_.container_.undone.Bak_srcsInAddresses._Exe(
 								fs.addresses_.disjoint.deV_._bak.io_._CfgX.Create_bakedNone(cancel, git)
-						)._exe(
+								,
+						
 								_moduleInsideSln
 								,
 								new System.Collections.Concurrent.ConcurrentBag<fs._address.DivI>()
