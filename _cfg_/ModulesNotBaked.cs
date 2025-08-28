@@ -15,7 +15,7 @@ namespace nilnul.dev._bak_._CTR_.ctr_._cfg_
 		private void address_shields__NonblankLines1_Load(object sender, EventArgs e)
 		{
 			this.address_shields__NonblankLines1.txt = nilnul.txt.accumulate_.join_._LineSeparatedX.ToWinLines(
-				nilnul.dev.srcs.bak_._retVoid.SettingX.ModulesNotBakedInside.OrderBy(
+				nilnul.dev.raws.bak_._retVoid.SettingX.ModulesNotBakedInside.OrderBy(
 					x => x, nilnul.fs.address.nulable.comp_.Cn.Singleton
 				)
 			);
@@ -36,7 +36,7 @@ namespace nilnul.dev._bak_._CTR_.ctr_._cfg_
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			nilnul.dev.srcs.bak_._retVoid.Settings1.Default.modulesNotBakedInside= nilnul.txts_.StrCollectionX.FroEnumable(
+			nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.modulesNotBakedInside= nilnul.txts_.StrCollectionX.FroEnumable(
 				this.address_shields__NonblankLines1.parsed.Values.Select(
 					x =>
 					nilnul.fs.address_.shield_._AddressX1.Txt(
@@ -44,7 +44,7 @@ namespace nilnul.dev._bak_._CTR_.ctr_._cfg_
 					)
 				)
 			);
-			nilnul.dev.srcs.bak_._retVoid.Settings1.Default.Save();
+			nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.Save();
 			this.button1.Text = "Saved";
 
 		}

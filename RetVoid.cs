@@ -54,7 +54,7 @@ namespace nilnul.dev._bak_._CTR_.ctr_
 		public string shield { get; set; }
 
 		public void bak(IEnumerable<string> shieldAddresses) {
-			var shields2bak = shieldAddresses?? nilnul.dev.srcs.bak_._retVoid.Settings1.Default.shields2bak.Cast<string>();
+			var shields2bak = shieldAddresses?? nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.shields2bak.Cast<string>();
 
 
 			started?.Invoke();
@@ -81,7 +81,7 @@ namespace nilnul.dev._bak_._CTR_.ctr_
 
 		public void bak() {
 
-			var shields2bak = nilnul.dev.srcs.bak_._retVoid.SettingX.shields2bak;
+			var shields2bak = nilnul.dev.raws.bak_._retVoid.SettingX.shields2bak;
 
 
 			bak(shields2bak.Cast<string>());
@@ -93,7 +93,7 @@ namespace nilnul.dev._bak_._CTR_.ctr_
 			bak();
 			//start?.Invoke();
 
-			//var shields2bak = nilnul.dev.srcs.bak_._retVoid.Settings1.Default.Properties[nameof(nilnul.dev.srcs.bak_._retVoid.Settings1.shields2bak)].DefaultValue as StringCollection;
+			//var shields2bak = nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.Properties[nameof(nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.shields2bak)].DefaultValue as StringCollection;
 
 
 		}

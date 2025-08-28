@@ -26,10 +26,10 @@ namespace nilnul.dev._bak_._CTR_.ctr_._retVoid_
 			this.textBox1.Text = /*null;*/
 			(
 				nilnul.obj.str._SampleX.Sample(
-					nilnul.dev.srcs.bak_._retVoid.SettingX.shields2bak
+					nilnul.dev.raws.bak_._retVoid.SettingX.shields2bak
 				) ?? ""
 			//??
-			//nilnul.dev.srcs.bak_._retVoid.SettingX.srcs1.en.FirstOrDefault()?.ToString()
+			//nilnul.dev.raws.bak_._retVoid.SettingX.srcs1.en.FirstOrDefault()?.ToString()
 			);
 			validate();
 

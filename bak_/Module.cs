@@ -65,7 +65,7 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_
 
 		private void module1_Load(object sender, EventArgs e)
 		{
-			this.module1.txt = nilnul.dev.srcs.bak_._retVoid.SettingX.module2bak;
+			this.module1.txt = nilnul.dev.raws.bak_._retVoid.SettingX.module2bak;
 		}
 
 		private void bak___module__start_Cancel1_start()
@@ -81,9 +81,9 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_
 
 		private void bak___module__Start1_finished()
 		{
-			nilnul.dev.srcs.bak_._retVoid.Settings1.Default.module2bak = this.module1.txt;
+			nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.module2bak = this.module1.txt;
 
-			nilnul.dev.srcs.bak_._retVoid.Settings1.Default.Save();
+			nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.Save();
 			this.finished?.Invoke();
 		}
 

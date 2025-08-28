@@ -49,9 +49,9 @@ namespace nilnul.dev._bak_._CTR_.ctr_._cfg_
 
 			nilnul.dev.Properties.Settings.Default.Save();
 
-			nilnul.dev.srcs.bak_._retVoid.Settings1.Default.srcs = nilnul.dev.Properties.Settings.Default.srcs;
+			nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.srcs = nilnul.dev.Properties.Settings.Default.srcs;
 
-			nilnul.dev.srcs.bak_._retVoid.Settings1.Default.Save();
+			nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.Save();
 
 			this.button1.Text = "Saved";
 

@@ -18,7 +18,7 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_.module_
 
 		void ini()
 		{
-			this.moduleInSlnBySub1.txt = nilnul.dev.srcs.bak_._retVoid.SettingX.module2bak;
+			this.moduleInSlnBySub1.txt = nilnul.dev.raws.bak_._retVoid.SettingX.module2bak;
 
 		}
 
@@ -82,9 +82,9 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_.module_
 
 		private void bak___module__Start1_finished()
 		{
-			nilnul.dev.srcs.bak_._retVoid.Settings1.Default.module2bak = this.moduleInSlnBySub1.txt;
+			nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.module2bak = this.moduleInSlnBySub1.txt;
 
-			nilnul.dev.srcs.bak_._retVoid.Settings1.Default.Save();
+			nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.Save();
 
 			this.moduleInSlnBySub1.Enabled = true;
 

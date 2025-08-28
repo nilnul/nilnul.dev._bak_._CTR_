@@ -43,16 +43,16 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_
 			//if (checkBoxShieldsNotBaked.Checked)
 			//{
 			//	if (
-			//				nilnul.dev.srcs.bak_._retVoid.Settings1.Default.shieldsNotBaked==null
+			//				nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.shieldsNotBaked==null
 
 			//		)
 			//	{
-			//		nilnul.dev.srcs.bak_._retVoid.Settings1.Default.shieldsNotBaked = new System.Collections.Specialized.StringCollection();
+			//		nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.shieldsNotBaked = new System.Collections.Specialized.StringCollection();
 
 
 			//	}
 
-			//	nilnul.dev.srcs.bak_._retVoid.Settings1.Default.shieldsNotBaked.AddRange(
+			//	nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.shieldsNotBaked.AddRange(
 			//		this.address_shields__NonblankLines1.parsed.Values.Select(x=>x.ToString()).ToArray()
 			//	);
 
@@ -61,15 +61,15 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_
 			//if (checkBoxModulesNotBaked.Checked)
 			//{
 			//	if (
-			//				nilnul.dev.srcs.bak_._retVoid.Settings1.Default.modulesNotBakedInside==null
+			//				nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.modulesNotBakedInside==null
 
 			//		)
 			//	{
-			//		nilnul.dev.srcs.bak_._retVoid.Settings1.Default.modulesNotBakedInside= new System.Collections.Specialized.StringCollection();
+			//		nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.modulesNotBakedInside= new System.Collections.Specialized.StringCollection();
 
 			//	}
 
-			//	nilnul.dev.srcs.bak_._retVoid.Settings1.Default.modulesNotBakedInside.AddRange(
+			//	nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.modulesNotBakedInside.AddRange(
 			//		this.address_shields__NonblankLines1.parsed.Values.Select(x=>x.ToString()).ToArray()
 			//	);
 
@@ -79,11 +79,11 @@ namespace nilnul.dev._bak_._CTR_.ctr_.bak_
 
 			startOfPar1.bak(
 				this.address_shields__NonblankLines1.valAsDisjointAddresses.toOriginal().Select(x => x.ToString())
-			//nilnul.txts_.StrCollectionX.ToEnumable( nilnul.dev.srcs.bak_._retVoid.Settings1.Default.shields2bak)
+			//nilnul.txts_.StrCollectionX.ToEnumable( nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.shields2bak)
 			//
 			);
 
-			//startCtr.bak(nilnul.txts_.StrCollectionX.ToEnumable( nilnul.dev.srcs.bak_._retVoid.Settings1.Default.shields2bak));
+			//startCtr.bak(nilnul.txts_.StrCollectionX.ToEnumable( nilnul.dev.bak.nilnul0.dev.raws.bak_._retVoid.Settings1.Default.shields2bak));
 
 			//throw new NotImplementedException();
 		}
